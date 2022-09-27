@@ -1,0 +1,29 @@
+# Audio
+persist.vendor.audio.hifi=false
+persist.vendor.audio.ring.filter.mask=0
+ro.vendor.audio.soundfx.usb=true
+ro.vendor.audio.us.type=mius
+persist.vendor.audio.voicecall.speaker.stereo=true
+vendor.audio.feature.compr_voip.enable=false
+vendor.voice.path.for.pcm.voip=false
+
+# Chipset
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SDM7150
+
+# Display
+debug.sf.frame_rate_multiple_threshold=120
+vendor.display.disable_metadata_dynamic_fps=1
+
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+
+# Fluence
+ro.qc.sdk.audio.fluencetype=none
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicerec=false
+persist.audio.fluence.speaker=true
+ro.vendor.audio.sdk.fluencetype=fluence
+persist.vendor.audio.fluence.voicecall=true
+persist.vendor.audio.fluence.voicecomm=true
+vendor.audio.feature.fluence.enable=true
